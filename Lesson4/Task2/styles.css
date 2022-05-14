@@ -1,7 +1,7 @@
 .body {
   font-size: 24px;
 }
-.list {
+ul {
   margin: 3px;
   color: orange;
 }
