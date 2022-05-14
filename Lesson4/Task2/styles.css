@@ -1,12 +1,9 @@
-.body {
+body {
   font-size: 24px;
 }
-.list {
+ul {
   color: orange;
 }
-.paragraph1 {
-  color: green;
-}
-.paragraph2 {
+p {
   color: green;
 }
