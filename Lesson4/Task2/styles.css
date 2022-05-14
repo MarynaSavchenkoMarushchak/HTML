@@ -1,9 +1,9 @@
 body {
   font-size: 24px;
 }
-.list1 {
-  color: orange;
-}
-p {
+.paragraph {
   color: green;
+}
+.list {
+  color: orange;
 }
