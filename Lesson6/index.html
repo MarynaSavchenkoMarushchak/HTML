@@ -15,22 +15,22 @@
     li {
       margin-bottom: 16px;
     }
-    [target*='_blank'] {
+    [target='_blank'] {
       border: 2px solid black;
     }
-    a[href^='broken'] {
+    [href^='broken'] {
       border: 2px solid red;
     }
-    a[href$='com'] {
+    [href$='com'] {
       margin-left: 50px;
     }
-    href[lang|='en'] {
+    href[lang~='en'] {
       font-size: 10px;
     }
-    a[href*='www'] {
+    [href*='www'] {
       color: green;
     }
-    a[title~='super-popular'] {
+    [title~='super-popular'] {
       font-size: 24px;
     }
   </style>
