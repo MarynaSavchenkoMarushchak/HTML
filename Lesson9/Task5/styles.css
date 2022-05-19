@@ -14,8 +14,9 @@
   color: white;
   float: left;
   position: relative;
-  top: -4px;
+  line-height: 50%;
   list-style: none;
+  font-size: 18px;
 }
 .content {
   background-color: beige;
