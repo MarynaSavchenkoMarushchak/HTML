@@ -1,6 +1,21 @@
-div {
-  border: 3px solid black;
-  background-color: aqua;
-  padding: 50px 50px 50px 50px;
-  margin: 0px 0px 50px 0px;
+.T4 {
+  background-color: pink;
+  border: 2px solid black;
+  padding: 50px;
+}
+.T3 {
+  background-color: green;
+  border: 2px solid black;
+  padding: 50px;
+}
+.T2 {
+  background-color: yellow;
+  border: 2px solid black;
+  padding: 50px;
+}
+.T1 {
+  background-color: blue;
+  border: 2px solid black;
+  padding: 50px;
+  margin: 50px;
 }
