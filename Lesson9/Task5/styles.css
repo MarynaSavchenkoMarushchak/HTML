@@ -3,62 +3,62 @@
   height: 40px;
   position: fixed;
   width: 100%;
+  z-index: 2;
 }
 .navigator {
+  position: absolute;
   height: 40px;
 }
-
-.nav-item {
-  float: left;
+.nav-list {
+  margin: 0px;
+  height: 40px;
   margin-left: 16px;
-  color: white;
-  float: left;
+}
+.nav-item {
   position: relative;
-  line-height: 50%;
-  list-style: none;
-  font-size: 18px;
+  display: inline-block;
+  margin-right: 10px;
+  color: white;
+  line-height: 40px;
 }
 .content {
   background-color: beige;
   height: 5000px;
 }
 .head {
+  position: absolute;
+  left: calc(50% - 100px);
+  top: calc(50% - 100px);
   width: 200px;
   height: 200px;
+  z-index: 1;
   background-color: aquamarine;
-  position: absolute;
-  top: 50%;
-  left: 70%;
 }
-.ear_right {
+.ear {
+  position: absolute;
   background-color: brown;
   height: 60px;
   width: 40px;
-  position: absolute;
+}
+.ear_right {
   top: -60px;
   left: -40px;
 }
 .ear_left {
-  background-color: brown;
-  height: 60px;
-  width: 40px;
-  position: absolute;
   top: -60px;
   right: -40px;
 }
 .eye {
+  position: absolute;
   background-color: grey;
   border-radius: 50%;
   width: 30px;
   height: 30px;
+  top: 80px;
 }
 .eye_right {
-  position: absolute;
-  top: 80px;
   right: 40px;
 }
 .eye_left {
-  position: absolute;
-  top: 80px;
   left: 40px;
 }
