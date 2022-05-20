@@ -15,6 +15,7 @@
         display: flex;
         height: 40px;
         background-color: yellow;
+        justify-content: left;
         align-items: center;
       }
       .footer {
@@ -37,7 +38,6 @@
         display: flex;
         flex-direction: column;
         min-height: 100vh;
-        list-style-type: none;
       }
       .main {
         flex-grow: 1;
@@ -53,10 +53,17 @@
       .new {
         width: 200px;
         background-color: grey;
+      }
+      .list_new {
         list-style-type: none;
       }
-      new_list {
-        list-style-type: none;
+      .head_new {
+        display: flex;
+        margin: 16px 16px 16px 16px;
+        justify-content: center;
+      }
+      .new_list {
+        padding: 10px;
       }
     </style>
   </head>
@@ -77,8 +84,8 @@
           <h2>I can use Flexbox!!!</h2>
         </section>
         <aside class="new">
-          <h2>News</h2>
-          <ul class="new_list">
+          <h2 class="head_new">News</h2>
+          <ul class="list_new">
             <li class="new_list">News 1</li>
             <li class="new_list">News 2</li>
             <li class="new_list">News 3</li>
