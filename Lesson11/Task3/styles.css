@@ -12,12 +12,12 @@
   padding: 8px;
   border-radius: 4px;
   cursor: pointer;
-  height: 34px;
+  height: 40px;
 }
 .menu-list {
   display: none;
   position: absolute;
-  top: 34px;
+  top: 40px;
   color: black;
   list-style-type: none;
   background-color: lightcyan;
