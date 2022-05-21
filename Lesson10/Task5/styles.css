@@ -1,0 +1,6 @@
+.article {
+  flex-basis: 100%;
+  margin: 8px;
+  padding: 16px;
+  background-color: bisque;
+}
