@@ -8,8 +8,7 @@ header {
   flex-wrap: wrap;
 }
 .article {
-  width: 170px;
-  flex-basis: auto;
+  flex-basis: 200px;
   margin: 8px;
   padding: 16px;
   background-color: bisque;
