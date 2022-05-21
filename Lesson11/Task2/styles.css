@@ -1,12 +1,12 @@
 body {
   display: flex;
+  box-sizing: content-box;
 }
 div {
   width: 150px;
   height: 100px;
   background-color: beige;
   margin: 16px;
-  font-size: 22px;
 }
 .cropped {
   overflow: hidden;
