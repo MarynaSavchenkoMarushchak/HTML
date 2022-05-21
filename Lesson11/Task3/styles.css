@@ -1,0 +1,23 @@
+.dropdown {
+  margin: 16px;
+  background-color: darkgreen;
+  color: white;
+  display: inline-block;
+  padding: 8px;
+  border-radius: 4px;
+}
+.menu-list {
+  display: none;
+  position: absolute;
+  color: black;
+  list-style-type: none;
+  background-color: wheat;
+  padding: 0;
+  margin: 0;
+}
+.menu-item {
+  padding: 8px;
+}
+.dropdown:hover .menu-list {
+  display: block;
+}
