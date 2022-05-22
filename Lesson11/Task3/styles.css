@@ -9,12 +9,15 @@
   color: white;
   font-size: 16px;
   display: inline-block;
-  padding: 8px;
+  padding: 16px;
   cursor: pointer;
   height: 50px;
   width: 110px;
   text-align: center;
   top: 50%;
+}
+.menu-button {
+  text-align: center;
 }
 .menu-list {
   display: none;
