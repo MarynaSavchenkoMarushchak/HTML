@@ -2,13 +2,11 @@
   box-sizing: border-box;
 }
 .dropdown {
-  position: relative;
+  display: block;
+  position: absolute;
   margin: 16px;
+  /* display: inline-block; */
 
-  display: inline-block;
-
-  height: 50px;
-  width: 100px;
   text-align: center;
 }
 .dropdown:hover {
@@ -17,6 +15,8 @@
 }
 .menu-button {
   padding: 16px;
+  height: 50px;
+  width: 110px;
   background-color: darkgreen;
   opacity: 0.8;
   color: white;
@@ -37,7 +37,7 @@
   min-width: 120px;
 }
 .dropdown:hover .menu-list {
-  display: inline-block;
+  display: block;
 }
 .menu-item {
   padding: 16px;
