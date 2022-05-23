@@ -34,6 +34,6 @@
 .dropdown:hover .menu-list {
   display: block;
 }
-.menu-list :hover {
+/* .menu-list :hover {
   background-color: ghostwhite;
-}
+} */
