@@ -9,6 +9,7 @@ h1 {
   word-spacing: 20px;
   text-transform: uppercase;
   text-align: center;
+  letter-spacing: normal;
 }
 p {
   line-height: 28px;
@@ -16,7 +17,7 @@ p {
 .technology {
   font-weight: 900;
   letter-spacing: 3px;
-  font-size: 20px;
+  font-size: 18px;
   opacity: 0.8;
   text-decoration: underline;
 }
