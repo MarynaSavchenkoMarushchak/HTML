@@ -1,6 +1,6 @@
 html {
   font-family: Roboto, sans-serif;
-  font-size: 18px;
+  font-size: 16px;
 }
 section {
   margin: 32px;
@@ -8,7 +8,7 @@ section {
 h1 {
   word-spacing: 24px;
   text-transform: uppercase;
-  /* text-align: center; */
+  text-align: center;
   letter-spacing: 0px;
 }
 p {
@@ -17,7 +17,7 @@ p {
 .technology {
   font-weight: 900;
   letter-spacing: 3px;
-  font-size: 24px;
+  font-size: 22px;
   opacity: 0.8;
   text-decoration: underline;
 }
