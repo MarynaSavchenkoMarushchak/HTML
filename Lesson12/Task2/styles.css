@@ -9,10 +9,10 @@ h1 {
   margin: 16px auto;
 }
 div {
-  height: 200px;
+  height: 210px;
   background-color: coral;
   color: white;
   text-align: center;
-  line-height: 200px;
+  line-height: 210px;
   text-transform: uppercase;
 }
