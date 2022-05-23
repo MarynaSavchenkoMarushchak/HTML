@@ -4,14 +4,14 @@
   padding: 16px;
   background-color: darkgreen;
   opacity: 0.8;
-  height: 34px;
+  height: 26px;
 }
 .dropdown-button {
   position: relative;
   background-color: darkgreen;
   opacity: 0.8;
-  height: 34px;
-  /* padding: 16px; */
+  height: 26px;
+  padding: 16px;
   color: white;
   font-size: 16px;
   cursor: pointer;
@@ -23,6 +23,7 @@
 .menu-list {
   display: none;
   position: absolute;
+  margin-top: 26px;
   list-style-type: none;
   background-color: lightcyan;
   color: black;
