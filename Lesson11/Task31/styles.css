@@ -1,3 +1,6 @@
+* {
+  box-sizing: border-box;
+}
 .dropdown {
   display: inline-block;
   position: relative;
@@ -20,6 +23,7 @@
 }
 .dropdown:hover {
   opacity: 1;
+  cursor: pointer;
 }
 
 .menu-list {
