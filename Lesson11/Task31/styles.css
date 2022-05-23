@@ -14,7 +14,7 @@
   width: 110px; */
   text-align: center;
 }
-.dropdown-button {
+.menu-button {
   padding: 16px;
 }
 .dropdown:hover {
@@ -24,12 +24,12 @@
 .menu-list {
   display: none;
   position: absolute;
-  padding: 1px;
+  padding: 0px;
   margin: 0;
   left: 0px;
   top: 50px;
   color: black;
-  list-style-type: none;
+
   background-color: lightcyan;
   box-shadow: 0px 4px 8px 0px rgb(0, 0, 0, 0.2);
   z-index: 1;
@@ -41,8 +41,8 @@
 .menu-item {
   padding: 16px;
   display: flex;
+  list-style-type: none;
 }
-
 .menu-item:hover {
   background-color: ghostwhite;
 }
