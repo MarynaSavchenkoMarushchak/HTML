@@ -1,8 +1,9 @@
 .dropdown {
   display: inline-block;
   margin: 16px;
-  /* background-color: darkgreen; */
+  background-color: darkgreen;
   opacity: 0.8;
+  height: 34px;
 }
 .dropdown-button {
   position: relative;
