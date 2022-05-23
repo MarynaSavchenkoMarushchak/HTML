@@ -22,7 +22,6 @@ p {
 }
 .translation {
   color: grey;
-  letter-spacing: 1px;
 }
 [target='_blank'] {
   text-decoration: none;
