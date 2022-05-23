@@ -1,14 +1,15 @@
 .dropdown {
   display: inline-block;
   margin: 16px;
-}
-.dropdown-button {
-  position: relative;
   background-color: darkgreen;
   opacity: 0.8;
   color: white;
   padding: 16px;
   font-size: 16px;
+}
+.dropdown-button {
+  position: relative;
+
   cursor: pointer;
   height: 34px;
 }
