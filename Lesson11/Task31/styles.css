@@ -1,19 +1,20 @@
 .dropdown {
   display: inline-block;
   margin: 16px;
-  background-color: darkgreen;
+  /* background-color: darkgreen; */
   opacity: 0.8;
-  color: white;
-  padding: 16px;
-  font-size: 16px;
 }
 .dropdown-button {
   position: relative;
-
-  cursor: pointer;
+  background-color: darkgreen;
+  opacity: 0.8;
   height: 34px;
+  padding: 16px;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
 }
-.dropdown-button:hover {
+.dropdown:hover {
   opacity: 1;
 }
 
