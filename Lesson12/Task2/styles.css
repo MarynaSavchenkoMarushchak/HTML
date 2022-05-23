@@ -6,13 +6,13 @@ h1 {
   white-space: nowrap;
   text-overflow: ellipsis;
   width: 50%;
-  margin: 8px auto 8px auto;
+  margin: 6px auto 6px auto;
 }
 div {
-  height: 216px;
+  height: 200px;
   background-color: coral;
   color: white;
   text-align: center;
-  line-height: 216px;
+  line-height: 200px;
   text-transform: uppercase;
 }
