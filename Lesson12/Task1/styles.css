@@ -13,14 +13,14 @@ h1 {
 p {
   line-height: 28px;
 }
-.technology {
+.tech {
   font-weight: 900;
   letter-spacing: 3px;
   font-size: 24px;
   opacity: 0.8;
   text-decoration: underline;
 }
-.translation {
+.eng {
   color: grey;
 }
 [target='_blank'] {
