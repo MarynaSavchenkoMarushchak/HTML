@@ -4,10 +4,8 @@
 
 .mountains {
   padding: 32px;
-
   font-size: 32px;
   text-align: center;
-
   color: white;
   outline: 700;
   height: 500px;
@@ -15,6 +13,5 @@
   /* background-color: hsla(700, 80%, 90%); */
   background-image: url(nature.jpeg);
   background-position: center;
-  /* background-size: contain;
-  background-repeat: no-repeat; */
+  background-size: cover;
 }
