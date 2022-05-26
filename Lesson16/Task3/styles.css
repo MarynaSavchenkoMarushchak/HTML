@@ -1,6 +1,6 @@
-/* body {
-  margin: 16px;
-} */
+body {
+  margin-top: 16px;
+}
 input[type='checkbox'] {
   visibility: hidden;
   height: 0;
