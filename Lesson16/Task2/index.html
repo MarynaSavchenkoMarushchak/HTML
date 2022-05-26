@@ -15,16 +15,22 @@
   <body>
     <form>
       <div class="form-control">
-        <label>Last Name </label><br />
-        <input type="text" name="lastName" value="Emerson" readonly />
+        <label for="last-name-form-control">Last Name </label><br />
+        <input
+          id="last-name-form-control"
+          type="text"
+          name="lastName"
+          value="Emerson"
+          readonly
+        />
       </div>
       <div class="form-control">
         <label>Age </label>
         <input type="number" name="age" value="17" min="3" max="10" required />
       </div>
       <div class="form-control">
-        <input type="checkbox" name="agree" disabled />
-        <label> Accept terms and conditions"</label>
+        <input type="checkbox" id="accept-terms" name="agree" disabled />
+        <label for="accept-terms"> Accept terms and conditions</label>
       </div>
       <div class="choose-gender">
         <input type="radio" name="gender" checked />
