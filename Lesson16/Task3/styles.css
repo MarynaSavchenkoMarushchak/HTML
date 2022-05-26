@@ -1,5 +1,5 @@
 body {
-  margin-top: 8px;
+  margin-top: 16px;
 }
 input[type='checkbox'] {
   visibility: hidden;
@@ -19,7 +19,6 @@ input[type='checkbox'] {
   position: relative;
   padding-left: 35px;
   font-size: 24px;
-  margin: 16px;
 }
 .checkbox input:checked + .checkmark {
   background-color: #006400;
