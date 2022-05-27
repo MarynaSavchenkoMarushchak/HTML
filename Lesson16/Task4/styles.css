@@ -1,6 +1,5 @@
 body {
   box-sizing: border-box;
-  background-color: bisque;
 }
 .page {
   display: flex;
@@ -8,6 +7,7 @@ body {
   align-content: center;
   justify-content: center;
   align-items: center;
+  background-color: bisque;
 }
 .login-form {
   display: flex;
