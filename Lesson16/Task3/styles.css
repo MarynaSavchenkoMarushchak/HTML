@@ -3,6 +3,9 @@ input[type='checkbox'] {
   height: 0;
   width: 0;
 }
+body {
+  margin: 16px;
+}
 .checkmark {
   display: inline-block;
   position: absolute;
@@ -13,6 +16,7 @@ input[type='checkbox'] {
   left: 0px;
 }
 .checkbox {
+  margin: 16px;
   position: relative;
   padding-left: 35px;
   font-size: 24px;
