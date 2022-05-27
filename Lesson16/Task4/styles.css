@@ -1,4 +1,4 @@
-body {
+* {
   box-sizing: border-box;
 }
 .page {
@@ -11,10 +11,6 @@ body {
   font-family: monospace;
 }
 .login-form {
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: stretch;
-  flex-direction: column;
   width: 300px;
   padding: 16px;
   background-color: aqua;
