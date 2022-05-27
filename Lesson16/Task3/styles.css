@@ -9,8 +9,8 @@ input[type='checkbox'] {
 .checkmark {
   display: inline-block;
   position: absolute;
-  width: 25px;
-  height: 25px;
+  width: 24px;
+  height: 24px;
   background-color: #d3d3d3;
   top: 0px;
   left: 0px;
