@@ -5,6 +5,10 @@
   display: block;
   margin: 8px;
 }
+.language {
+  display: block;
+  margin: 8px;
+}
 .page {
   margin: 32px;
   align-items: left;
