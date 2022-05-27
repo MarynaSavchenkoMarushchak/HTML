@@ -18,7 +18,7 @@ body {
 .checkbox {
   position: relative;
   padding-left: 35px;
-  font-size: 24px;
+  font-size: 23px;
 }
 .checkbox input:checked + .checkmark {
   background-color: #006400;
