@@ -1,20 +1,22 @@
-table,
-td,
-th {
-  border: 1px solid black;
-  border-collapse: collapse;
-  border-spacing: 10px;
+* {
+  box-sizing: border-box;
 }
 table {
   width: 500px;
+  margin: 16px;
+  border: 1px solid black;
+  border-collapse: collapse;
 }
-
+tr,
 td,
 th {
   padding: 4px;
   text-align: right;
+  border: 1px solid black;
+  border-collapse: collapse;
+  border-spacing: 10px;
 }
-div {
-  box-sizing: border-box;
-  margin: 16px;
+
+caption {
+  margin: 0 auto;
 }
