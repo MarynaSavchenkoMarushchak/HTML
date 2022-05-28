@@ -8,6 +8,7 @@ th {
 table {
   width: 500px;
 }
+
 td,
 th {
   padding: 4px;
@@ -16,5 +17,4 @@ th {
 div {
   box-sizing: border-box;
   margin: 16px;
-  overflow-x: auto;
 }
