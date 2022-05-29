@@ -1,11 +1,11 @@
 .row {
   display: flex;
 }
-.small-bird {
+.bird_small {
   width: 64px;
   height: 64px;
 }
-.large-bird {
+.bird_large {
   width: 320px;
   height: 320px;
 }
