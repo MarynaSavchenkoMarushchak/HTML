@@ -5,7 +5,7 @@
   margin: 32px;
 }
 .rect {
- display: flex;
+  display: flex;
   height: 100px;
   width: 100px;
   background-color: coral;
@@ -22,7 +22,7 @@
   opacity: 1;
 }
 .linear {
-  transition-timing-function: linear);
+  transition-timing-function: linear;
 }
 .ease {
   transition-timing-function: ease;
