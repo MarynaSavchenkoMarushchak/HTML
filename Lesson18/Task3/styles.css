@@ -1,21 +1,25 @@
-body {
+* {
+  box-sizing: border-box;
+}
+.battary-stage-list {
+  margin: 0;
+  list-style-type: none;
   display: flex;
-}
-.fa-solid {
   justify-content: space-around;
+  padding: 0;
 }
-.fa-battery-full {
+.first {
   font-size: 16px;
 }
-.fa-battery-three-quarters {
+.second {
   font-size: 32px;
 }
-.fa-battery-half {
+.third {
   font-size: 64px;
 }
-.fa-battery-quarter {
+.fourth {
   font-size: 128px;
 }
-.fa-battery-empty {
+.fifth {
   font-size: 256px;
 }
