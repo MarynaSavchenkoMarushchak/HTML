@@ -9,43 +9,24 @@
   top: 50%;
   left: 50%;
   font-family: monospace;
-  font-size: 16px;
+  font-size: 36px;
   text-transform: uppercase;
-  animation: moving 2s;
-  animation-iteration-count: infinite;
-}
-.spinner-text {
-  animation: blinging 2s;
+  animation: moving 22s;
   animation-iteration-count: infinite;
   transition-timing-function: linear;
 }
+.spinner-text {
+  /* animation: blinging 5s;
+  animation-iteration-count: infinite; */
+}
 .rect {
+  position: absolute;
   background-color: black;
   width: 10px;
   height: 4px;
   border-radius: 2px;
-  animation: moving 2s infinite;
-  animation: blinking 2s infinite;
-  justify-content: center;
-}
-@keyframes moving {
-  from {
-    left: 0;
-    opacity: 1;
-  }
-  to {
-    left: 70px;
-  }
-}
-
-@keyframes blinking {
-  0% {
-    opacity: 0;
-  }
-  50% {
-    opacity: 1;
-  }
-  100% {
-    opacity: 0;
-  }
+  animation: moving 22s;
+  transition-timing-function: linear;
+  animation-iteration-count: infinite;
+  /* animation: blinging 2s infinite;  */
 }
