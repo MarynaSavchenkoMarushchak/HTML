@@ -16,8 +16,8 @@
   transition-timing-function: linear;
 }
 .spinner-text {
-  /* animation: blinging 5s;
-  animation-iteration-count: infinite; */
+  animation: blinging 5s;
+  animation-iteration-count: infinite;
 }
 .rect {
   position: absolute;
