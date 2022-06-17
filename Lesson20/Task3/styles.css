@@ -13,7 +13,7 @@
   animation: blinking 2s infinite linear;
 }
 .circle {
-  box-sizing: content-box;
+  box-sizing: border-box;
   height: 50px;
   width: 50px;
   border: 4px lightgrey solid;
