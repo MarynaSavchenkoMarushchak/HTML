@@ -1,0 +1,48 @@
+.container {
+  display: flex;
+  height: 100vh;
+}
+.spinner {
+  border: none;
+  margin: auto;
+}
+.spinner-text {
+  font-family: monospace;
+  font-size: 16px;
+  text-transform: uppercase;
+  animation: blinking 2s infinite linear;
+}
+.circle {
+  box-sizing: content-box;
+  height: 50px;
+  width: 50px;
+  border: 4px lightslategrey solid;
+  margin-bottom: 8px;
+  border-radius: 50%;
+  animation: circle 2s linear infinite;
+}
+@keyframes blinking {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@keyframes circle {
+  0% {
+    border-top: 4px black solid;
+  }
+  25% {
+    border-right: 4px black solid;
+  }
+  50% {
+    border-bottom: 4px black solid;
+  }
+  75% {
+    border-left: 4px black solid;
+  }
+}
