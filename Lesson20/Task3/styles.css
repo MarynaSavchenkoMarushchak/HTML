@@ -16,7 +16,7 @@
   box-sizing: content-box;
   height: 50px;
   width: 50px;
-  border: 4px lightslategrey solid;
+  border: 4px lightgrey solid;
   margin-bottom: 8px;
   border-radius: 50%;
   animation: circle 2s linear infinite;
