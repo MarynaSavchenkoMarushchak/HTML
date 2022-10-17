@@ -5,14 +5,16 @@ html {
   font-size: 27px;
 }
 .font-in-em {
-  font-size: 1.5em;
+  font-size: 1.5em; /*Больше,чем по всей странице
+  (родителя)*/
 }
 .font-in-vw {
-  font-size: 5vw;
+  font-size: 5vw; /*Относительно ширины экрана
+  */
 }
 .font-in-percents {
-  font-size: 150%;
+  font-size: 150%; /*Относительно родителя*/
 }
 .font-in-rem {
-  font-size: 1.5rem;
+  font-size: 1.5rem; /*Относительно шрифта HTML*/
 }
