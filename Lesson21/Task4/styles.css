@@ -84,7 +84,7 @@ h1 {
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
-  margin-left: 0.5em;
-  margin-right: 0.5em;
+  padding-left: 1em;
+  padding-right: 1em;
   text-decoration: none;
 }
