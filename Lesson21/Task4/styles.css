@@ -19,7 +19,7 @@ h1 {
   text-align: center;
   margin: 0;
   height: 79px;
-  line-height: 74.5px;
+  line-height: 75px;
   color: white;
 }
 .footer {
@@ -84,7 +84,7 @@ h1 {
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
-  padding-left: 0.5em;
-  padding-right: 0.5em;
+  margin-left: 0.5em;
+  margin-right: 0.5em;
   text-decoration: none;
 }
