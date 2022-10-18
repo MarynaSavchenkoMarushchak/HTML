@@ -54,7 +54,7 @@ h1 {
 .nav-list-item {
   display: flex;
   padding: 0;
-  height: 2em;
+  height: 2%;
   margin: 0;
   list-style-type: none;
 }
