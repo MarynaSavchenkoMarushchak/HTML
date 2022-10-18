@@ -8,22 +8,23 @@
   font-size: 16px;
 }
 .header {
-  /* display: flex; */
-  /* height: 70.8px; */
-  /* align-items: center; */
+  align-items: center;
+  height: 76px;
   background-image: linear-gradient(60deg, red, orange);
 }
 h1 {
+  /* display: flex; */
   text-align: center;
   margin: 0;
-  /* height: 50.8px; */
-  line-height: 50px;
+  height: 76px;
+  line-height: 70px;
   color: white;
 }
 .footer {
   display: block;
   text-align: center;
   width: 100%;
+
   background-color: #e5e5e5;
   padding: 0.5em;
 }
