@@ -2,23 +2,23 @@
   box-sizing: border-box;
 }
 
-.html {
+html {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   color: #555;
   font-size: 16px;
 }
-.body {
+body {
   height: 100vh;
 }
 .header {
   align-items: center;
-  height: 80px;
+  height: 79px;
   background-image: linear-gradient(60deg, red, orange);
 }
 h1 {
   text-align: center;
   margin: 0;
-  height: 80px;
+  height: 79px;
   line-height: 75px;
   color: white;
 }
@@ -40,6 +40,7 @@ h1 {
   width: 20%;
 }
 .section {
+  font-size: 1.25em;
   padding: 0.5em;
   width: 60%;
 }
@@ -68,10 +69,10 @@ h1 {
   font-weight: 700;
 }
 .section__header {
-  display: flex;
-  width: 100%;
+  /* display: flex; */
+  /* width: 100%; */
   font-size: 5vh;
-  align-items: center;
+  /* align-items: center; */
   text-align: center;
 }
 .nav-list-link {
