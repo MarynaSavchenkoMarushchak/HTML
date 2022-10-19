@@ -62,9 +62,8 @@ body {
   font-weight: 700;
 }
 .section__header {
-  font-size: 5vh;
+  font-size: 5vw;
   text-align: center;
-  margin: auto;
 }
 .nav-list-link {
   width: 100%;
