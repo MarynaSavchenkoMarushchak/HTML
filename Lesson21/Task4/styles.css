@@ -55,7 +55,6 @@ body {
   list-style-type: none;
 }
 .units-list {
-  font-size: 1.25em;
   line-height: 1.75em;
 }
 .css-units {
@@ -67,6 +66,7 @@ body {
 .section__header {
   font-size: 5vh;
   text-align: center;
+  margin: auto;
 }
 .nav-list-link {
   width: 100%;
