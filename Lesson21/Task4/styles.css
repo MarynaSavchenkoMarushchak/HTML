@@ -78,7 +78,7 @@ h1 {
   text-align: center;
 }
 .nav-list-link {
-  width: 100vh;
+  width: 100%;
   background-color: #808080;
   color: white;
   line-height: 2.5em;
