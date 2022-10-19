@@ -29,14 +29,12 @@ span {
   .productKontainer {
     display: flex;
   }
+  .products,
   .navigation {
-    width: 50vw;
-  }
-  .products {
-    width: 50vw;
+    flex: 1 1 0; /* flex-grow:1,flex-shrink:1;flex-basis:auto*/
   }
 }
-@media screen and (min-width: 900px) {
+/* @media screen and (min-width: 900px) {
   .container {
     display: flex;
   }
@@ -48,5 +46,17 @@ span {
   }
   .news {
     width: 33.3vw;
+  }
+} */
+
+@media (min-width: 900px) {
+  .container {
+    display: flex;
+  }
+  .productKontainer {
+    flex: 2;
+  }
+  .news {
+    flex: 1;
   }
 }
