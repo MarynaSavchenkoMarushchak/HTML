@@ -105,13 +105,13 @@ img {
 
   .navigation {
     flex: 1;
-    width: 20vw;
+    width: 20%;
   }
   .section {
     flex: 1;
-    width: 80vw;
+    width: 80%;
   }
   .news {
-    flex: 0;
+    flex-wrap: nowrap;
   }
 }
