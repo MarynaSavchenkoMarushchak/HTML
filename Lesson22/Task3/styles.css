@@ -2,10 +2,10 @@ main {
   display: flex;
 }
 picture {
-  max-width: 100%;
   margin: auto;
 }
 
 img {
   max-height: 100%;
+  max-width: 100%;
 }
