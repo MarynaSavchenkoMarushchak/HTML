@@ -115,3 +115,22 @@ img {
     flex-wrap: nowrap;
   }
 }
+@media screen and (min-width: 1200px) {
+  .main {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .navigation {
+    flex: 1;
+    width: 20%;
+  }
+  .section {
+    flex: 1;
+    width: 60%;
+  }
+  .news {
+    flex: 1;
+    width: 20%;
+  }
+}
