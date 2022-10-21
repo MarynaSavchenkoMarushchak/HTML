@@ -103,19 +103,21 @@ img {
     /* flex-wrap: wrap; */
   }
 
-  .navigation,
+  /* .navigation,
   section {
     flex: 1 1 0;
-    width: 20%;
-  }
-  /* .section {
-    flex: 1;
-    width: 80%;
-  } */
-  /* .news {
+    /* width: 20%; */
+}
+.navigation {
+  width: 20vw;
+}
+.section {
+  width: 80vw;
+}
+/* .news {
     flex-wrap: nowrap;
   } */
-}
+
 @media screen and (min-width: 1200px) {
   .main {
     display: flex;
@@ -123,11 +125,9 @@ img {
   }
 
   .navigation {
-    flex: 1;
     width: 20%;
   }
   .section {
-    flex: 1;
     width: 60%;
   }
   .news {
