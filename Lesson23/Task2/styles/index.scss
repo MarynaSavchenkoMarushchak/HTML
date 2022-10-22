@@ -1,4 +1,5 @@
 @import 'breakpoints.scss';
+
 * {
   box-sizing: border-box;
 }
@@ -28,6 +29,6 @@ body {
 
 .container {
   @include orientation-screen {
-    flex-direction: column;
+    display: flex;
   }
 }
