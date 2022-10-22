@@ -24,9 +24,10 @@ body {
   @include for-large-up {
     background-color: #c47;
   }
+}
+
+.container {
   @include orientation-screen {
-    .container {
-      flex-direction: column;
-    }
+    flex-direction: column;
   }
 }
