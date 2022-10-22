@@ -23,7 +23,31 @@ $lg: 1200px;
   }
 }
 
-@mixin orientation-screen {
+@mixin portrait-small {
+  @media screen and (orientation: portrait) {
+    @content;
+  }
+}
+
+@mixin landscape-small {
+  @media screen and (orientation: landscape) {
+    @content;
+  }
+}
+
+@mixin landscape-medium {
+  @media screen and (orientation: landscape) {
+    @content;
+  }
+}
+
+@mixin landscape-large {
+  @media screen and (orientation: landscape) {
+    @content;
+  }
+}
+
+@mixin landscape-xl {
   @media screen and (orientation: landscape) {
     @content;
   }

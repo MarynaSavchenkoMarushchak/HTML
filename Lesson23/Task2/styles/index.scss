@@ -28,7 +28,19 @@ body {
 }
 
 .container {
-  @include orientation-screen {
+  // @include portrait-small {
+  //   display: block;
+  // }
+  @include landscape-small {
+    display: flex;
+  }
+  @include landscape-medium {
+    display: flex;
+  }
+  @include landscape-large {
+    display: flex;
+  }
+  @include landscape-xl {
     display: flex;
   }
 }
