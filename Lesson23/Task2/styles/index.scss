@@ -28,9 +28,9 @@ body {
 }
 
 .container {
-  // @include portrait-small {
-  //   display: block;
-  // }
+  @include portrait-small {
+    display: flex;
+  }
   @include landscape-small {
     display: flex;
   }
