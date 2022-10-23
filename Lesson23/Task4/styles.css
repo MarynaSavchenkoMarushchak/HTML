@@ -48,7 +48,7 @@ span {
   margin: auto;
 }
 
-@media screen and (max-width: 600px -1) {
+@media screen and (min-width: 900px) {
   .productKontainer {
     display: flex;
   }

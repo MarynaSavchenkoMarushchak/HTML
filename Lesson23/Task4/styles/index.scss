@@ -47,10 +47,9 @@ span {
 }
 
 .productKontainer {
-  @include for-extra-small {
+  @include for-medium-up {
     display: flex;
   }
-
   @include for-large-up {
     flex: 2;
   }
