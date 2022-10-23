@@ -11,7 +11,7 @@ html {
   min-height: 200px;
   background-color: #ff7f50;
 }
-@media screen and (min-width: 900px) {
+@media screen and (min-width: 600px) {
   .navigation {
     flex: 1 1 0; /* flex-grow:1,flex-shrink:1;flex-basis:auto*/
   }
@@ -22,7 +22,7 @@ html {
   min-height: 200px;
   background-color: #006400;
 }
-@media screen and (min-width: 900px) {
+@media screen and (min-width: 600px) {
   .products {
     flex: 1 1 0; /* flex-grow:1,flex-shrink:1;flex-basis:auto*/
   }
@@ -33,7 +33,7 @@ html {
   min-height: 200px;
   background-color: #0ff;
 }
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 900px) {
   .news {
     flex: 1;
   }
@@ -48,18 +48,18 @@ span {
   margin: auto;
 }
 
-@media screen and (min-width: 900px) {
+@media screen and (min-width: 600px) {
   .productKontainer {
     display: flex;
   }
 }
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 900px) {
   .productKontainer {
     flex: 2;
   }
 }
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 900px) {
   .container {
     display: flex;
   }
