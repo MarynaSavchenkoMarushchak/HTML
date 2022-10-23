@@ -27,10 +27,10 @@ body {
   }
 }
 
-.container {
-  @include portrait-small {
-    display: flex;
-  }
+// .container {
+//   @include portrait-small {
+//   }
+
   @include landscape-small {
     display: flex;
   }
