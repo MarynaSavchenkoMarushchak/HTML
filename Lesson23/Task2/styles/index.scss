@@ -31,16 +31,15 @@ body {
 //   @include portrait-small {
 //   }
 
-  @include landscape-small {
-    display: flex;
-  }
-  @include landscape-medium {
-    display: flex;
-  }
-  @include landscape-large {
-    display: flex;
-  }
-  @include landscape-xl {
-    display: flex;
-  }
+@include landscape-small {
+  display: flex;
+}
+@include landscape-medium {
+  display: flex;
+}
+@include landscape-large {
+  display: flex;
+}
+@include landscape-xl {
+  display: flex;
 }
