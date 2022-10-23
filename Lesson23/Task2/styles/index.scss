@@ -29,6 +29,7 @@ body {
 
 .container {
   @include portrait-small {
+    margin: 16px;
   }
 
   @include landscape-small {
