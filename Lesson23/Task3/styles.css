@@ -1,11 +1,11 @@
 .header {
-  height: 3em;
+  height: 6em;
   background-color: #006400;
 }
 
 .menu {
   display: flex;
-  height: 48px;
+  height: 96px;
   margin: 0;
   align-items: center;
   margin: 0;
