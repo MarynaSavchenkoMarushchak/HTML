@@ -15,8 +15,10 @@
   cursor: pointer;
 }
 .menu__item {
+  display: flex;
   align-items: center;
-  padding: 8px;
+  height: 48px;
+  padding: 0px 8px 0 8px;
 }
 .menu__item-text {
   :hover {
@@ -30,9 +32,11 @@
 .menu__item_active:hover .submenu {
   display: block;
 }
+
 .submenu {
   display: none;
   position: absolute;
+  top: 48px;
   min-width: 120px;
   padding: 0;
   margin: 0;
@@ -43,12 +47,11 @@
   z-index: 1;
 }
 .menu__item_active {
-  position: relative;
   display: inline-block;
 }
 
-.submenu__item:hover {
-  display: block;
+.submenu__item {
+  padding: 8px;
   :hover {
     color: black;
     background-color: #ff7f50;
