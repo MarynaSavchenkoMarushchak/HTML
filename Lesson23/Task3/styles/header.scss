@@ -16,6 +16,8 @@
   cursor: pointer;
 }
 .menu__item {
+  align-items: center;
+
   padding: 0 8px 0 8px;
 }
 .menu__item-text {
@@ -24,7 +26,7 @@
   }
 }
 
-.menu__item_active:hover {
+.menu__item_active {
   color: yellow;
 }
 .menu__item_active:hover .submenu {
@@ -49,7 +51,7 @@
 
 .submenu__item:hover {
   display: block;
-  padding: 8px;
+  // padding: 8px;
   :hover {
     color: black;
     background-color: #ff7f50;
