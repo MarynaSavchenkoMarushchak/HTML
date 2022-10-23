@@ -11,6 +11,7 @@
   text-transform: uppercase;
   list-style: none;
   color: white;
+  cursor: pointer;
 }
 
 .menu__item {
