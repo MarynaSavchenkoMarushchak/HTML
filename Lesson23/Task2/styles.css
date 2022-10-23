@@ -31,9 +31,9 @@ body {
   }
 }
 
-@media screen and (orientation: landscape) {
-  .container {
-    display: flex;
+@media screen and (orientation: portrait) {
+  .square {
+    margin: 16px;
   }
 }
 @media screen and (orientation: landscape) {
