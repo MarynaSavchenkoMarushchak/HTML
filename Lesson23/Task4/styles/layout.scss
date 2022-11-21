@@ -8,6 +8,6 @@ $lg: 900px;
 }
 @mixin for-large-up {
   @media screen and (min-width: $lg) {
-    @content;
+    // @content;
   }
 }
