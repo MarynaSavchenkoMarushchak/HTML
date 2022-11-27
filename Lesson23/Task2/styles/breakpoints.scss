@@ -47,8 +47,8 @@ $lg: 1200px;
   }
 }
 
-@mixin landscape-xl {
-  @media screen and (orientation: landscape) {
-    @content;
-  }
-}
+// @mixin landscape-xl {
+//   @media screen and (orientation: landscape) {
+//     @content;
+//   }
+// }
